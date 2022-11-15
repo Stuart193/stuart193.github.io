@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: 'Libre Baskerville', serif;
+  font-family: 'PT Serif', serif;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     width: 55%;
     height: 100vh;
     background-color: #AEF1A1;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
     font-size: 5vw;
     font-variant: small-caps;
     font-variant: small-caps;
@@ -50,7 +50,7 @@ body {
     margin-left: 15%;
     top: 0%;
     background-color: #F5D318;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif', serif;
     text-align: center;
 }
 
