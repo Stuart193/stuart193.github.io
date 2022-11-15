@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <!--<meta http-equiv="refresh" content="10">-->
+  <title>My Family</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
+  <link href="styles/style.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/interactions.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <div class="sidebar">
+    <a class="sidebar-links" href="index.html">Home</a>
+    <a class="sidebar-links" href="^my-story.html">My story</a>
+    <a class="sidebar-links" href="^my-family.html">My family</a>
+    <a class="sidebar-links" href="^my-interests.html">My interests</a>
+  </div>
+
+  <div class="background-box">
+    <img src="images/flowers-along-bear-creek.jpg" class="background-image">
+  </div>
+
+  <div class="welcome">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <a><br><br></a>
+    <a>Welcome to <br>Green Valley</a>
+  </div>
+
+  <div class="catchy-text">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <a class="catchy-text-header"><br><br>​Green Valley Cottages<br>is a very special place.</a>
+    <a class="catchy-text-text"><br><br>Each cottage is yours for your stay -- private, quiet, and tranquil. Our
+      entire property is ready<br>for you to enjoy, with its three acre lake, woods, trails, and simple peace and
+      quiet.<br><br>During your stay, you can use the pedalboat, rowboat, or tubes; enjoy bird-watching, fishing,
+      or hiking;<br>use the private grill and campfire area at your cottage, and, of course, relax in your own
+      private hot tub.<br><br><br><br></a>
+  </div>
+
+  <div class="slideshow-box">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="fade">
+      <div class="image-number">1 / 4</div>
+      <img src="images/sophronias-front.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
+      <div class="text">Sophronia Cottage</div>
+    </div>
+
+    <div class="hide-images fade">
+      <div class="image-number">2 / 4</div>
+      <img src="images/francenas-living-room.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
+      <div class="text">Francena Cottage</div>
+    </div>
+
+    <div class="hide-images fade">
+      <div class="image-number">3 / 4</div>
+      <img src="images/lorys-kitchen.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
+      <div class="text">Lory Cottage</div>
+    </div>
+
+    <div class="hide-images fade">
+      <div class="image-number">4 / 4</div>
+      <img src="images/excelsiors-living-room.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
+      <div class="text">Excelsior Cottage</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="previous-image" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next-image" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="slideshow-dots" onclick="currentSlide(1)"></span>
+    <span class="slideshow-dots" onclick="currentSlide(2)"></span>
+    <span class="slideshow-dots" onclick="currentSlide(3)"></span>
+    <span class="slideshow-dots" onclick="currentSlide(4)"></span>
+  </div>
+
+</body>
+
+</html>
