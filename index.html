@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <!--<meta http-equiv="refresh" content="10">-->
   <title>Stuart Kesecker</title>
-  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg" />
   <link href="styles/style.css" rel="stylesheet">
   <script type="text/javascript" src="scripts/interactions.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +21,14 @@
   </div>
 
   <div class="first-page">
-    <img src="images/home-background.jpg" class="background-image">
-    <a class="welcome">Hello!</a>
-    <a class="short-info">I am Stuart Kesecker, and I've created this website to give some info about me.</a>
-    <img src="images/profile-image.jpg" class="profile-image">
+    <div class="background-image-box">
+      <img src="images/home-background.jpg" class="background-image" style="filter: blur(10px);">
+    </div>
+    <div class="welcome-box">
+      <a class="welcome">Hello!</a>
+      <img src="images/profile-image.jpg" class="profile-image">
+      <a class="short-info">I am Stuart Kesecker, and I've created this website to give some info about me.</a>
+    </div>
   </div>
 
   <!--
@@ -52,7 +56,7 @@
 
   <div class="slideshow-box">-->
 
-    <!--
+  <!--
     <div class="fade">
       <div class="image-number">1 / 4</div>
       <img src="images/sophronias-front.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
@@ -76,19 +80,6 @@
       <img src="images/excelsiors-living-room.jpg" class="slideshow-image" loading="eager" onclick="plusSlides(1)">
       <div class="text">Excelsior Cottage</div>
     </div>-->
-
-    <!-- Next and previous buttons -->
-    <a class="previous-image" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next-image" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="slideshow-dots" onclick="currentSlide(1)"></span>
-    <span class="slideshow-dots" onclick="currentSlide(2)"></span>
-    <span class="slideshow-dots" onclick="currentSlide(3)"></span>
-    <span class="slideshow-dots" onclick="currentSlide(4)"></span>
   </div>
 
 </body>
