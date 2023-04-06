@@ -1,0 +1,94 @@
+html {
+    background-color: #1C1B22;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 90vh;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+}
+
+a, a:visited, a:active{
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #808080;
+}
+
+.contents{
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.coverImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+}
+
+.arrowsBox{
+    margin-top: 5vh;
+    left: 10vw;
+    right: 10vw;
+}
+
+.leftArrow{
+    margin-left: 10vw;
+    width: 10vh;
+}
+
+.rightArrow{
+    float: right;
+    margin-right: 10vw;
+    width: 10vh;
+}
+
+.jumpBox{
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.jumpField{
+    border: 2px solid #000000;
+    background-color: #808080;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.jumpButton{
+    border: 2px solid #000000;
+    background-color: #404040;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.quickLinksBox{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.quickLinks, .quickLinks:visited, .booklink:active{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    text-decoration: none;
+}
+
+.quickLinks:hover{
+    color: #808080;
+}
