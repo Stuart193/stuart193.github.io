@@ -206,7 +206,13 @@ function contentUpdate() {
 
 
     var today = todaysNumber + dayChange;
+    
+    /*Year 1 - 2023*/
     document.getElementById("psalmReading").innerHTML = "Psalm " + (Math.floor((today - 1) / 7) + 1);
+
+    /*Year 2 - 2024*/
+    document.getElementById("psalmReading").innerHTML = "Psalm " + (Math.floor(today / 7) + 53);
+    
     document.getElementById("proverbsReading").innerHTML = "Proverbs " + currentDayLocation;
     document.getElementById("lawAndHistoryReading").innerHTML = lawAndHistoryReading[today - 1];
     document.getElementById("wisdomAndProphetsReading").innerHTML = wisdomAndProphetsReading[today - 1];
